@@ -46,7 +46,7 @@ python-dateutil==2.7.3
 pytz  # no version pinning to avoid OS perturbations
 pyusb==1.0.2
 qrcode==6.1
-reportlab==3.5.13; python_version < '3.8'
+reportlab==3.5.31; python_version < '3.8'
 reportlab==3.5.55; python_version >= '3.8'
 requests==2.21.0; python_version <= '3.9'
 requests==2.25.1; python_version > '3.9'  # (Jammy) versions < 2.25 aren't compatible w/ urllib3 1.26. Bullseye = 2.25.1. min version = 2.22.0 (Focal)
